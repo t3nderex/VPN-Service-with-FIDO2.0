@@ -1,0 +1,109 @@
+body {
+    
+    height: 100vh;
+    background-image: url('wallpaper.png');
+    background-repeat : no-repeat;
+    background-size : cover;
+    text-align: center;
+    
+  }
+
+#login{
+    font-size: 30px;
+    text-decoration: none; text-shadow: 0 0 24px;
+    color: burlywood;
+}
+a{
+    border: darkgoldenrod;
+    text-decoration: none;
+    text-decoration: none; text-shadow: 0 0 24px;
+    font-size: 20px;
+    color: tomato;
+    
+}
+
+
+
+
+
+#bt11{
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+    
+    width: 200px ;
+    height: 25px;
+    border: none;
+    background-color: rgba(47,18,241,0.3);
+    color: burlywood;
+}
+
+#bt12{
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    width: 200px ;
+    height: 25px;
+    border: none;
+    background-color: rgba(47,18,241,0.3);
+    color: burlywood;
+}
+
+#bt21{
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+    width: 210px ;
+    height: 25px;
+    border: none;
+    background-color: rgba(47,18,241,0.3);
+    color: burlywood;
+}
+
+#bt22{
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    width: 210px ;
+    height: 25px;
+    border: none;
+    background-color: rgba(47,18,241,0.3);
+    color: coral;
+    color: burlywood;
+}
+
+#bt31{
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+    width: 210px ;
+    height: 26px;
+    border: none;
+    background-color: rgba(47,18,241,0.3);
+    color: burlywood;
+}
+
+#bt32{
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    width: 210px ;
+    height: 26px;
+    border: none;
+    background-color: rgba(47,18,241,0.3);
+    color: burlywood;
+}
+
+#bt31:hover{
+    background-color: aquamarine;
+}
+
+#bt32:hover{
+  background-color: aquamarine;
+}
+
+#text{
+    padding-top: -30px;
+    font-size: 60px;
+    text-align: center;
+    color:burlywood
+}
+
+input::placeholder {
+    color:burlywood
+}
+

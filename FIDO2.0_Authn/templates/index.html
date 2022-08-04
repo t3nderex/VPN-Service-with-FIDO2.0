@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>FIND_TEAM
+        </title>
+    </head>
+    <body>
+        <script src="{{ url_for('static',filename='js/webauthn.js') }}"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        {% if username %}
+            <p id = "login" >
+                Welcome, {{username}}! 
+                
+                <br>
+                You have successfully authenticated FIDO2.
+            </p>
+            <a href="{{ url_for('logout') }}">Logout</a>
+        {% else %}
+        <img src="static/css/logo.png" alt="" loading="lazy" style="width:300px">
+        <br>
+        <br>
+        <div class = "box_all">    
+            <form id="inputForm" method="POST">
+                    <input id = "bt11" type="text" name="username" placeholder="Enter username" >
+                    <br>
+                    <input id = "bt12" type="text" name="displayname" placeholder="Enter displayname">
+                    <br>
+                    <br>
+                    <select id = "bt21"  name="attestation-type" style="text-align: center;" >
+                        <option value="none" >None</option>
+                        <option value="indirect">Indirect</option>
+                        <option value="direct">Direct</option>
+                    </select>
+                    <br>
+                    <select id = "bt22" name="authenticator-type" >
+                        <option value="unspecified">  Unspecified</option>
+                        <option value="cross-platform">Cross Platform</option>
+                        <option value="platform">Platform (TPM)</option>
+                    </select>
+                    <br>
+                    <br>
+            </form>
+            <input id ="bt31" type="button" value="Register" onclick="createPublicKeyCredential()"/>
+            <br>
+            <input id ="bt32" type="submit" value="Login" onclick="login()"/>
+        </div>
+        {% endif %}
+    </body>
+</html>
+
