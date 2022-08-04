@@ -41,7 +41,7 @@
 | VPN Client |  박준형 | Python | VPN 서비스 클라이언트 |
 | Web Server |  차현석, 김동언 | Apache | 웹 서버 |
 | FIDO2.0 Server | 차현석, 김동언 | Python, Javascript | FIDO2.0 인증 처리 서버 |
-| FIDO2.0 Client |  차현석, 김동언 | Python, Javascript | FIDO2.0 로그인 클라이언트 |
+| Web Client |  차현석, 김동언 | HTML(Flask-jinja2), CSS, Javascript | FIDO2.0 로그인 웹 페이지 |
 
 ## 동작 프로세스—
 
