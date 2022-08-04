@@ -32,7 +32,7 @@
 
 [박준형](https://github.com/CheLuEs)(순천향대학교 정보보호학과, SCH 사이버보안연구센터)
 
-[김동언]([https://github.com/TUNA](https://github.com/7UN4))(순천향대학교 정보보호학과, SCH 사이버보안연구센터)
+[김동언](https://github.com/7UN4)(순천향대학교 정보보호학과, SCH 사이버보안연구센터)
 
 ## 개발 프로세스—
 
