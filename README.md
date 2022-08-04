@@ -4,7 +4,9 @@
 
 ![image](https://user-images.githubusercontent.com/86182243/182912096-bfdb54e6-017a-4aa7-97d0-dc6cb078fc5f.png)
 
-2021년도에 진행했던 “2021 FIDO Alliance Developer Challenge” 본선에 제출했던 출품작입니다.
+2021년도에 진행했던 “2021 FIDO Alliance Developer Challenge” 본선에 제출했던 출품작입니다. 
+[W3C의 웹 인증 표준 권고안](https://www.w3.org/TR/2019/REC-webauthn-1-20190304/#intro)에 맞추어 개발되었습니다.
+
 
 ## 대회 프로세스—
 
