@@ -45,13 +45,13 @@
 
 ## 동작 프로세스—
 
-| 순서 | 처리 주체 | 설명 |
-| --- | --- | --- |
-| 1 | VPN Client | VPN 클라이언트를 실행시킨 후, 로그인 웹 페이지 생성 |
-| 2 | FIDO2.0 Client | 회원 가입/로그인 시도 |
-| 3 | FIDO2.0 Server | 인증 처리 |
-| 4 | FIDO2.0 Server | 소켓 통신을 통해 인증 결과를 VPN Client로 전달  |
-| 5 | VPN Client | 인증 결과가 참이라면 로그인 성공6 |
+| 처리 주체 | 설명 |
+| --- | --- |
+| VPN Client | VPN 클라이언트를 실행시킨 후, 로그인 웹 페이지 생성 |
+| FIDO2.0 Client | 회원 가입/로그인 시도 |
+| FIDO2.0 Server | 인증 처리 |
+| FIDO2.0 Server | 소켓 통신을 통해 인증 결과를 VPN Client로 전달  |
+| VPN Client | 인증 결과가 참이라면 로그인 성공6 |
 
 ## 구동
 
