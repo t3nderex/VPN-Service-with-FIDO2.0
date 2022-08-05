@@ -51,7 +51,7 @@
 | FIDO2.0 Client | 회원 가입/로그인 시도 |
 | FIDO2.0 Server | 인증 처리 |
 | FIDO2.0 Server | 소켓 통신을 통해 인증 결과를 VPN Client로 전달  |
-| VPN Client | 인증 결과가 참이라면 로그인 성공6 |
+| VPN Client | 인증 결과가 참이라면 로그인 성공 |
 
 ## 구동
 
